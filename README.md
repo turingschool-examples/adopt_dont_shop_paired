@@ -1,3 +1,61 @@
+# Adopt Don't Shop Paired Project
+BE Mod 2 Week 2/3 Pair Project
+
+## Background and Description
+
+"Adopt Don't Shop Paired" is a fictitious pet adoption platform where visitors can favorite pets and apply to adopt their newest furry friend. 
+
+Students will be put into pairs to complete the project.
+
+## Learning Goals
+
+### Rails
+* Describe use cases for a model that inherits from ApplicationRecord vs. a PORO
+* Use MVC to organize code effectively, limiting the amount of logic included in views and controllers
+* Make use of flash messages
+* Use Inheritance from ApplicationController or a student created controller to store methods that will be used in multiple controllers
+* Use POROs to logically organize code for objects not stored in the database
+
+### ActiveRecord
+* Use built-in ActiveRecord methods to:
+* create queries that calculate, select, filter, and order data from a single table
+
+### Databases
+* Describe Database Relationships, including the following terms:
+* Many to Many
+* Join Table
+
+### Testing and Debugging
+* Write feature tests utilizing
+* Sad Path Testing
+* Write model tests with RSpec including validations, and class and instance methods
+
+### Web Applications
+* Explain how Cookies/Sessions are used to create and maintain application state
+* Describe and implement ReSTful routing
+* Identify use cases for, and implement non-ReSTful routes
+* Identify the different components of URLs(protocol, domain, path, query params)
+## Requirements
+
+- must use Rails 5.1.x
+- must use PostgreSQL
+- all controller and model code must be tested via feature tests and model tests, respectively
+- must use good GitHub branching, team code reviews via GitHub comments, and use of a project planning tool
+- must include a README to describe their project
+
+## Permitted
+
+- use FactoryBot to speed up your test development
+- use "rails generators" to speed up your app development
+
+## Not Permitted
+
+- do not use JavaScript for pagination or sorting controls
+
+## Permission
+
+- if there is a specific gem you'd like to use in the project, please get permission from your instructors first
+
 ## User Stories
 
 ```
@@ -507,9 +565,9 @@ I see the top 3 highest rated shelters highlighted on a specific part of the pag
 ## Rubric
 
 
-| | **Feature Completeness** | **Rails** | **ActiveRecord** | **Testing and Debugging** | **Styling, UI/UX** |
-| --- | --- | --- | --- | --- | --- |
-| **4: Exceptional**  | All User Stories 100% complete including all sad paths and edge cases, and some extension work completed | Students implement strategies not discussed in class to effectively organize code using POROs and adhere to MVC | Highly effective and efficient use of ActiveRecord beyond what we've taught in class. Even `.each` calls will not cause additional database lookups. | Very clear Test Driven Development. Test files are extremely well organized and nested. Students utilize `before :each` blocks. 100% coverage for features and models | Extremely well styled and purposeful layout. Excellent color scheme and font usage. All other rubric categories score 3 or 4. |
-| **3: Passing** | Students complete all User Stories. No more than 2 Stories fail to correctly implement sad path and edge case functionality. | Students use the principles of MVC and POROs vs. Models to effectively organize code. Students can defend any of their design decisions. | ActiveRecord is used in a clear and effective way to read/write data using no Ruby to process data. | 100% coverage for models. 98% coverage for features. Tests are well written and meaningful. | Purposeful styling pattern and layout using `application.html.erb`. Links or buttons to reach all areas of the site. |
-| **2: Passing with Concerns** | Students complete all but 1 - 3 User Stories | Students utilize MVC and POROs to organize code, but cannot defend some of their design decisions. | Ruby is used to process data that could use ActiveRecord instead. | Feature test coverage between 90% and 98%, or model test coverage below 100%, or tests are not meaningfully written or have an unclear objective. | Styling is poor or incomplete. Incomplete navigation for some routes, i.e. users must manually type URLs. |
-| **1: Failing** | Students fail to complete 4 or more User Stories | Students do not effectively organize code using MVC and/or POROs | Ruby is used to process data more often than ActiveRecord | Below 90% coverage for either features or models. | No styling or no buttons or links to navigate the site. |
+| | **Feature Completeness** | **Rails** | **ActiveRecord** | **Testing and Debugging** | 
+| --- | --- | --- | --- | --- |
+| **4: Exceptional**  | All User Stories 100% complete including all sad paths and edge cases, and some extension work completed | Students implement strategies not discussed in class to effectively organize code using POROs and adhere to MVC | Highly effective and efficient use of ActiveRecord beyond what we've taught in class. Even `.each` calls will not cause additional database lookups. | Very clear Test Driven Development. Test files are extremely well organized and nested. Students utilize `before :each` blocks. 100% coverage for features and models | 
+| **3: Passing** | Students complete all User Stories. No more than 2 Stories fail to correctly implement sad path and edge case functionality. | Students use the principles of MVC and POROs vs. Models to effectively organize code. Students can defend any of their design decisions. | ActiveRecord is used in a clear and effective way to read/write data using no Ruby to process data. | 100% coverage for models. 98% coverage for features. Tests are well written and meaningful. | 
+| **2: Passing with Concerns** | Students complete all but 1 - 3 User Stories | Students utilize MVC and POROs to organize code, but cannot defend some of their design decisions. | Ruby is used to process data that could use ActiveRecord instead. | Feature test coverage between 90% and 98%, or model test coverage below 100%, or tests are not meaningfully written or have an unclear objective. | 
+| **1: Failing** | Students fail to complete 4 or more User Stories | Students do not effectively organize code using MVC and/or POROs | Ruby is used to process data more often than ActiveRecord | Below 90% coverage for either features or models. |
