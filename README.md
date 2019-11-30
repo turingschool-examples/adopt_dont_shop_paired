@@ -392,6 +392,7 @@ I'm taken back to that applications show page
 And I can see the button to approve the application for that pet again
 When I go to that pets show page
 I can see that the pets adoption status is now back to adoptable
+And that pet is not on hold anymore
 ```
 
 ---
