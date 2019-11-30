@@ -347,8 +347,10 @@ As a visitor
 When I visit an application's show page
 For every pet that the application is for, I see a link to approve the application for that specific pet
 When I click on a link to approve the application for one particular pet
-I'm taken back to that pet's show page
-And I see that the pets status has changed to 'pending'
+I'm taken back to that application's show page
+And I no longer see a link to approve the application for that pet 
+When I visit that pets show page
+I see that the pets status has changed to 'pending'
 And I see text on the page that says who this pet is on hold for (Ex: "On hold for John Smith", given John Smith is the name on the application that was just accepted)
 ```
 
