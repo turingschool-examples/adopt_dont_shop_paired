@@ -293,6 +293,9 @@ At the top of the form, I can select from the pets of which I've favorited for w
 When I select one or more pets, and fill in my
 - Name
 - Address
+- City
+- State
+- Zip
 - Phone Number
 - Description of why I'd make a good home for this/these pet(s)
 And I click on a button to submit my application
@@ -303,7 +306,26 @@ And I'm taken back to my favorites page where I no longer see the pets for which
 ```
 [ ] done
 
-User Story 17, List of Pets that have applications on them
+User Story 17, Incomplete application for a Pet
+
+As a visitor
+When I apply for a pet and fail to fill out any of the following:
+- Name
+- Address
+- City
+- State
+- Zip
+- Phone Number
+- Description of why I'd make a good home for this/these pet(s)
+And I click on a button to submit my application
+I'm redirect back to the new application form to complete the necessary fields
+And I see a flash message indicating that I must complete the form in order to submit the application
+```
+
+```
+[ ] done
+
+User Story 18, List of Pets that have applications on them
 
 As a visitor
 After one or more applications have been created
@@ -315,13 +337,16 @@ Each pet's name is a link to their show page
 ```
 [ ] done
 
-User Story 18, Application Show Page
+User Story 19, Application Show Page
 
 As a visitor
 When I visit an applications show page "/applications/:id"
 I can see the following:
 - name
 - address
+- city
+- state
+- zip
 - phone number
 - Description of why the applicant says they'd be a good home for this pet(s)
 - names of all pet's that this application is for (all names of pets should be links to their show page)
@@ -331,7 +356,7 @@ I can see the following:
 ```
 [ ] done
 
-User Story 19, Pet Applications Index Page
+User Story 20, Pet Applications Index Page
 
 As a visitor
 When I visit a pets show page
@@ -344,7 +369,7 @@ Each applicant's name is a link to their application show page
 ```
 [ ] done
 
-User Story 20, Pet Applications Index Page When No Applications
+User Story 21, Pet Applications Index Page When No Applications
 
 As a visitor
 When I visit a pet applications index page for a pet that has no applications on them
@@ -354,7 +379,7 @@ I see a message saying that there are no applications for this pet yet
 ```
 [ ] done
 
-User Story 21, Approving an Application
+User Story 22, Approving an Application
 
 As a visitor
 When I visit an application's show page
@@ -368,7 +393,7 @@ And I see text on the page that says who this pet is on hold for (Ex: "On hold f
 ```
 [ ] done
 
-User Story 22, Users can get approved to adopt more than one pet
+User Story 23, Users can get approved to adopt more than one pet
 
 As a visitor
 When an application is made for more than one pet
@@ -377,7 +402,7 @@ I'm able to approve the application for any number of pets
 ```
 
 ```
-User Story 23, Pets can only have one approved application on them at any time
+User Story 24, Pets can only have one approved application on them at any time
 
 [ ] done
 
@@ -389,7 +414,7 @@ I can not approve any other applications for that pet but all other applications
 ```
 
 ```
-User Story 24, Approved Applications can be revoked
+User Story 25, Approved Applications can be revoked
 
 [ ] done
 
@@ -415,7 +440,7 @@ Visitors will have additional constraints when manipulating shelter data in the 
 ```
 [ ] done
 
-User Story 25, Shelters with Pets that have pending status cannot be Deleted
+User Story 26, Shelters with Pets that have pending status cannot be Deleted
 
 As a visitor
 If a shelter has approved applications for any of their pets
@@ -428,7 +453,7 @@ Either:
 ```
 [ ] done
 
-User Story 26, Shelters can be Deleted as long as all pets do not have approved applications on them
+User Story 27, Shelters can be Deleted as long as all pets do not have approved applications on them
 
 As a visitor
 If a shelter doesn't have any pets with a pending status
@@ -440,7 +465,7 @@ Then all of their pets are deleted as well
 ```
 [ ] done
 
-User Story 27, Deleting Shelters Deletes its Reviews
+User Story 28, Deleting Shelters Deletes its Reviews
 
 As a visitor
 When I delete a shelter
@@ -450,7 +475,7 @@ All reviews associated with that shelter are also deleted
 ```
 [ ] done
 
-User Story 28, Flash Messages for Shelter Create and Update
+User Story 29, Flash Messages for Shelter Create and Update
 
 As a visitor
 When I am updating or creating a new shelter
@@ -461,7 +486,7 @@ I see a flash message indicating which field(s) I am missing
 ```
 [ ] done
 
-User Story 29, Shelter Statistics
+User Story 30, Shelter Statistics
 
 As a visitor
 When I visit a shelter's show page
@@ -481,7 +506,7 @@ Visitors will have additional constraints when manipulating pet data in the data
 ```
 [ ] done
 
-User Story 30, Pets with approved applications cannot be deleted
+User Story 31, Pets with approved applications cannot be deleted
 
 As a visitor
 If a pet has an approved application on them
@@ -494,7 +519,7 @@ Either:
 ```
 [ ] done
 
-User Story 31, Deleting a pet removes it from favorites
+User Story 32, Deleting a pet removes it from favorites
 
 As a visitor
 If I've added a pet to my favorites
@@ -505,7 +530,7 @@ They are also removed from the favorites list
 ```
 [ ] done
 
-User Story 32, Flash Message for Pet Create and Update
+User Story 33, Flash Message for Pet Create and Update
 
 As a visitor
 When I am updating or creating a pet
@@ -520,7 +545,7 @@ Visitors will have additional constraints when manipulating pet data in the data
 ```
 [ ] done
 
-User Story 33, All Pet Names are links to that Pet's Show Page
+User Story 34, All Pet Names are links to that Pet's Show Page
 
 As a visitor
 Any time I see a pet's name within this application
@@ -530,7 +555,7 @@ It is a link to their show page
 ```
 [ ] done
 
-User Story 34, All Shelter Names are links to that Shelter's Show Page
+User Story 35, All Shelter Names are links to that Shelter's Show Page
 
 As a visitor
 Any time I see a shelter's name within this application
@@ -540,7 +565,7 @@ It is a link to their show page
 ```
 [ ] done
 
-User Story 35, All Applicant Names are links to that Applicant's application
+User Story 36, All Applicant Names are links to that Applicant's application
 
 As a visitor
 Any time I see an applicant's name within this application
@@ -552,7 +577,7 @@ It is a link to their application show page
 ## Extensions
 
 ```
-User Story 36, List of Pets with Approved Applications
+User Story 37, List of Pets with Approved Applications
 
 [ ] done
 
@@ -563,11 +588,10 @@ I see a section on the page that has a list of all of the pets that have an appr
 Each pet's name is a link to their show page
 ```
 
-
 ```
 [ ] done
 
-User Story 37, Reviews have a default picture
+User Story 38, Reviews have a default picture
 
 As a visitor
 When I create a review for a shelter
@@ -578,7 +602,7 @@ A default image is used and displayed for that review upon submission
 ```
 [ ] done
 
-User Story 38, Sortable Reviews
+User Story 39, Sortable Reviews
 
 As a visitor,
 When I visit a shelter's show page to see their reviews,
@@ -590,7 +614,7 @@ I see additional links to sort their reviews in the following ways:
 ```
 [ ] done
 
-User Story 39, More Shelter Statistics
+User Story 40, More Shelter Statistics
 
 As a visitor,
 When I visit the shelter's index page
