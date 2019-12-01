@@ -3,7 +3,7 @@ BE Mod 2 Week 2/3 Pair Project
 
 ## Background and Description
 
-"Adopt Don't Shop Paired" is a fictitious pet adoption platform where visitors can favorite pets and apply to adopt their newest furry friend. 
+"Adopt Don't Shop Paired" is a fictitious pet adoption platform where visitors can favorite pets and apply to adopt their newest furry friend.
 
 Students will be put into pairs to complete the project.
 
@@ -55,6 +55,9 @@ Students will be put into pairs to complete the project.
 ## Permission
 
 - if there is a specific gem you'd like to use in the project, please get permission from your instructors first
+
+## Setup
+This project builds off of the solo project, Adopt Don't Shop. Between you and your partner, choose which one of your repos you'd like to use. If you choose to use Partner A's solo project, Partner A will clone their project into a new directory and push up to a new repo on github. Then, Partner A should add Partner B as a collaborator to that project.
 
 ## User Stories
 
@@ -341,23 +344,31 @@ Each applicant's name is a link to their application show page
 ```
 [ ] done
 
-User Story 20, Approving an Application
+User Story 20, Pet Applications Index Page When No Applications
+
+As a visitor
+When I visit a pet applications index page for a pet that has no applications on them
+I see a message saying that there are no applications for this pet yet
+```
+
+```
+[ ] done
+
+User Story 21, Approving an Application
 
 As a visitor
 When I visit an application's show page
 For every pet that the application is for, I see a link to approve the application for that specific pet
 When I click on a link to approve the application for one particular pet
-I'm taken back to that application's show page
-And I no longer see a link to approve the application for that pet 
-When I visit that pets show page
-I see that the pets status has changed to 'pending'
+I'm taken back to that pet's show page
+And I see that the pets status has changed to 'pending'
 And I see text on the page that says who this pet is on hold for (Ex: "On hold for John Smith", given John Smith is the name on the application that was just accepted)
 ```
 
 ```
 [ ] done
 
-User Story 21, Users can get approved to adopt more than one pet
+User Story 22, Users can get approved to adopt more than one pet
 
 As a visitor
 When an application is made for more than one pet
@@ -366,7 +377,7 @@ I'm able to approve the application for any number of pets
 ```
 
 ```
-User Story 22, Pets can only have one approved application on them at any time
+User Story 23, Pets can only have one approved application on them at any time
 
 [ ] done
 
@@ -378,7 +389,7 @@ I can not approve any other applications for that pet but all other applications
 ```
 
 ```
-User Story 23, Approved Applications can be revoked
+User Story 24, Approved Applications can be revoked
 
 [ ] done
 
@@ -394,7 +405,6 @@ When I go to that pets show page
 I can see that the pets adoption status is now back to adoptable
 And that pet is not on hold anymore
 ```
-
 ---
 
 ## Shelters
@@ -405,7 +415,7 @@ Visitors will have additional constraints when manipulating shelter data in the 
 ```
 [ ] done
 
-User Story 24, Shelters with Pets that have pending status cannot be Deleted
+User Story 25, Shelters with Pets that have pending status cannot be Deleted
 
 As a visitor
 If a shelter has approved applications for any of their pets
@@ -418,7 +428,7 @@ Either:
 ```
 [ ] done
 
-User Story 25, Shelters can be Deleted as long as all pets do not have approved applications on them
+User Story 26, Shelters can be Deleted as long as all pets do not have approved applications on them
 
 As a visitor
 If a shelter doesn't have any pets with a pending status
@@ -430,7 +440,7 @@ Then all of their pets are deleted as well
 ```
 [ ] done
 
-User Story 26, Deleting Shelters Deletes its Reviews
+User Story 27, Deleting Shelters Deletes its Reviews
 
 As a visitor
 When I delete a shelter
@@ -440,7 +450,7 @@ All reviews associated with that shelter are also deleted
 ```
 [ ] done
 
-User Story 27, Flash Messages for Shelter Create and Update
+User Story 28, Flash Messages for Shelter Create and Update
 
 As a visitor
 When I am updating or creating a new shelter
@@ -451,7 +461,7 @@ I see a flash message indicating which field(s) I am missing
 ```
 [ ] done
 
-User Story 28, Shelter Statistics
+User Story 29, Shelter Statistics
 
 As a visitor
 When I visit a shelter's show page
@@ -471,7 +481,7 @@ Visitors will have additional constraints when manipulating pet data in the data
 ```
 [ ] done
 
-User Story 29, Pets with approved applications cannot be deleted
+User Story 30, Pets with approved applications cannot be deleted
 
 As a visitor
 If a pet has an approved application on them
@@ -484,7 +494,18 @@ Either:
 ```
 [ ] done
 
-User Story 30, Flash Message for Pet Create and Update
+User Story 31, Deleting a pet removes it from favorites
+
+As a visitor
+If I've added a pet to my favorites
+When I try to delete that pet from the database
+They are also removed from the favorites list
+```
+
+```
+[ ] done
+
+User Story 32, Flash Message for Pet Create and Update
 
 As a visitor
 When I am updating or creating a pet
@@ -499,7 +520,7 @@ Visitors will have additional constraints when manipulating pet data in the data
 ```
 [ ] done
 
-User Story 31, All Pet Names are links to that Pet's Show Page
+User Story 33, All Pet Names are links to that Pet's Show Page
 
 As a visitor
 Any time I see a pet's name within this application
@@ -509,7 +530,7 @@ It is a link to their show page
 ```
 [ ] done
 
-User Story 32, All Shelter Names are links to that Shelter's Show Page
+User Story 34, All Shelter Names are links to that Shelter's Show Page
 
 As a visitor
 Any time I see a shelter's name within this application
@@ -519,7 +540,7 @@ It is a link to their show page
 ```
 [ ] done
 
-User Story 33, All Applicant Names are links to that Applicant's application
+User Story 35, All Applicant Names are links to that Applicant's application
 
 As a visitor
 Any time I see an applicant's name within this application
@@ -531,9 +552,22 @@ It is a link to their application show page
 ## Extensions
 
 ```
+User Story 36, List of Pets with Approved Applications
+
 [ ] done
 
-User Story 34, Reviews have a default picture
+As a visitor
+After an application has been approved for one or more pets
+When I visit the favorites page
+I see a section on the page that has a list of all of the pets that have an approved application on them
+Each pet's name is a link to their show page
+```
+
+
+```
+[ ] done
+
+User Story 37, Reviews have a default picture
 
 As a visitor
 When I create a review for a shelter
@@ -544,7 +578,7 @@ A default image is used and displayed for that review upon submission
 ```
 [ ] done
 
-User Story 35, Sortable Reviews
+User Story 38, Sortable Reviews
 
 As a visitor,
 When I visit a shelter's show page to see their reviews,
@@ -556,7 +590,7 @@ I see additional links to sort their reviews in the following ways:
 ```
 [ ] done
 
-User Story 36, More Shelter Statistics
+User Story 39, More Shelter Statistics
 
 As a visitor,
 When I visit the shelter's index page
@@ -565,12 +599,13 @@ I see the top 3 highest rated shelters highlighted on a specific part of the pag
 
 
 
+
 ## Rubric
 
 
-| | **Feature Completeness** | **Rails** | **ActiveRecord** | **Testing and Debugging** | 
+| | **Feature Completeness** | **Rails** | **ActiveRecord** | **Testing and Debugging** |
 | --- | --- | --- | --- | --- |
-| **4: Exceptional**  | All User Stories 100% complete including all sad paths and edge cases, and some extension work completed | Students implement strategies not discussed in class to effectively organize code using POROs and adhere to MVC | Highly effective and efficient use of ActiveRecord beyond what we've taught in class. Even `.each` calls will not cause additional database lookups. | Very clear Test Driven Development. Test files are extremely well organized and nested. Students utilize `before :each` blocks. 100% coverage for features and models | 
-| **3: Passing** | Students complete all User Stories. No more than 2 Stories fail to correctly implement sad path and edge case functionality. | Students use the principles of MVC and POROs vs. Models to effectively organize code. Students can defend any of their design decisions. | ActiveRecord is used in a clear and effective way to read/write data using no Ruby to process data. | 100% coverage for models. 98% coverage for features. Tests are well written and meaningful. | 
-| **2: Passing with Concerns** | Students complete all but 1 - 3 User Stories | Students utilize MVC and POROs to organize code, but cannot defend some of their design decisions. | Ruby is used to process data that could use ActiveRecord instead. | Feature test coverage between 90% and 98%, or model test coverage below 100%, or tests are not meaningfully written or have an unclear objective. | 
+| **4: Exceptional**  | All User Stories 100% complete including all sad paths and edge cases, and some extension work completed | Students implement strategies not discussed in class to effectively organize code using POROs and adhere to MVC | Highly effective and efficient use of ActiveRecord beyond what we've taught in class. Even `.each` calls will not cause additional database lookups. | Very clear Test Driven Development. Test files are extremely well organized and nested. Students utilize `before :each` blocks. 100% coverage for features and models |
+| **3: Passing** | Students complete all User Stories. No more than 2 Stories fail to correctly implement sad path and edge case functionality. | Students use the principles of MVC and POROs vs. Models to effectively organize code. Students can defend any of their design decisions. | ActiveRecord is used in a clear and effective way to read/write data using no Ruby to process data. | 100% coverage for models. 98% coverage for features. Tests are well written and meaningful. |
+| **2: Passing with Concerns** | Students complete all but 1 - 3 User Stories | Students utilize MVC and POROs to organize code, but cannot defend some of their design decisions. | Ruby is used to process data that could use ActiveRecord instead. | Feature test coverage between 90% and 98%, or model test coverage below 100%, or tests are not meaningfully written or have an unclear objective. |
 | **1: Failing** | Students fail to complete 4 or more User Stories | Students do not effectively organize code using MVC and/or POROs | Ruby is used to process data more often than ActiveRecord | Below 90% coverage for either features or models. |
