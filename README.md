@@ -62,7 +62,7 @@ This project builds off of the solo project, Adopt Don't Shop. Between you and y
 ## Suggested Timeline
 - Monday: 1-4 
 - Tuesday: 2-7
-- Wednesday: 8, 11 
+- Wednesday: 8-11 
 - Thursday: 9-10
 - Friday: 12-15 
 - Weekend: 16-20 
