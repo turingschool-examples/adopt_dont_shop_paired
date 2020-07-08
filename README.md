@@ -65,11 +65,10 @@ This project builds off of the solo project, Adopt Don't Shop. Between you and y
 - Wednesday: 8-11 
 - Thursday: 9-10
 - Friday: 12-15 
-- Weekend: 16-20 
-- Monday: 21-25 
-- Tuesday: 26-30 
-- Wednesday: 31-33 
-- Thursday: 34-36 
+- Weekend: 16-25 
+- Monday: 26-30 
+- Tuesday: 31-33 
+- Wednesday: 34-36 
 
 
 ## User Stories
