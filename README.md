@@ -37,7 +37,7 @@ Students will be put into pairs to complete the project.
 * Identify the different components of URLs(protocol, domain, path, query params)
 ## Requirements
 
-- must use Rails 5.1.x
+- must use Rails 5.2.4.3
 - must use PostgreSQL
 - all controller and model code must be tested via feature tests and model tests, respectively
 - must use good GitHub branching, team code reviews via GitHub comments, and use of a project planning tool
