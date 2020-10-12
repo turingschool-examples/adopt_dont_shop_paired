@@ -42,7 +42,6 @@ Students will be put into pairs to complete the project.
 - must use PostgreSQL
 - all controller and model code must be tested via feature tests and model tests, respectively
 - must use good GitHub branching, team code reviews via GitHub comments, and use of a project planning tool
-- must include a README to describe their project
 
 ## Permitted
 
