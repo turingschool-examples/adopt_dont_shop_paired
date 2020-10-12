@@ -99,7 +99,7 @@ In a fully functioning web application, users would normally need to log in with
 Also notice that all User stories start with "As a visitor". A "visitor" is someone who is not logged into a user account. Since we are not adding any log in functionality, anyone using our application is considered a "visitor".
 
 ```
-User Story
+User Story 2, User Show Page
 
 As a visitor
 When I visit a User's show page
@@ -113,7 +113,7 @@ Including the User's
 ```
 
 ```
-User Story
+User Story 3, New User
 
 As a visitor
 When I visit '/users/new'
@@ -138,7 +138,7 @@ A review should belong to a Shelter, and belong to a User.
 ```
 [ ] done
 
-User Story 2, Shelter Reviews
+User Story 4, Shelter Reviews
 
 As a visitor,
 When I visit a shelter's show page,
@@ -154,7 +154,7 @@ Each review will have:
 ```
 [ ] done
 
-User Story 3, Shelter Review Creation
+User Story 5, Shelter Review Creation
 
 As a visitor,
 When I visit a shelter's show page
@@ -173,7 +173,7 @@ and I can see my new review
 ```
 [ ] done
 
-User Story, User Reviews
+User Story 6, User Reviews
 
 As a visitor
 When I visit a User's show page
@@ -185,7 +185,7 @@ Including the review's title, rating, and content
 ```
 [ ] done
 
-User Story 5, Edit a Shelter Review
+User Story 7, Edit a Shelter Review
 
 As a visitor,
 When I visit a shelter's show page
@@ -205,7 +205,7 @@ And I can see my updated review
 ```
 [ ] done
 
-User Story 7, Delete a Shelter Review
+User Story 8, Delete a Shelter Review
 
 As a visitor,
 When I visit a shelter's show page,
@@ -219,7 +219,7 @@ And I no longer see that shelter review
 ```
 [ ] done
 
-User Story 4, Shelter Review Creation, Incomplete Form
+User Story 9, Shelter Review Creation, Incomplete Form
 
 As a visitor,
 When I visit the new review page
@@ -231,7 +231,7 @@ And I'm returned to the new form to create a new review
 ```
 [ ] done
 
-User Story 4, Shelter Review Creation, User not Found
+User Story 10, Shelter Review Creation, User not Found
 
 As a visitor,
 When I visit the new review page
@@ -243,7 +243,7 @@ And I'm returned to the new form to create a new review
 ```
 [ ] done
 
-User Story 6, Edit a Shelter Review, Incomplete Form
+User Story 11, Edit a Shelter Review, Incomplete Form
 
 As a visitor,
 When I visit the page to edit a review
@@ -255,7 +255,7 @@ And I'm returned to the edit form to edit that review
 ```
 [ ] done
 
-User Story , Edit Shelter Review, User Not Found
+User Story 12, Edit Shelter Review, User Not Found
 
 As a visitor,
 When I visit the page to edit a review
@@ -269,7 +269,7 @@ And I'm returned to the new form to create a new review
 ```
 [ ] done
 
-User Story, User Review Average Rating
+User Story 13, User Review Average Rating
 
 As a visitor
 When I visit a User's show page
@@ -279,7 +279,7 @@ Then I see the average rating of all of their reviews
 ```
 [ ] done
 
-User Story, Highlighted User Reviews
+User Story 14, Highlighted User Reviews
 
 As a visitor
 When I visit a User's show page
@@ -296,7 +296,7 @@ Users will be able to submit an application for one or more pets.
 ```
 [ ] done
 
-User Story 19, Application Show Page
+User Story 15, Application Show Page
 
 PAIR STORY: It is recommended that you work on this story as a pair. Both partners should understand the data model for applications and how they relate to other models.
 
@@ -330,7 +330,7 @@ And I see an indicator that this application is "In Progress"
 ```
 [ ] done
 
-User Story , Starting an Application, User not found
+User Story 17, Starting an Application, User not found
 
 As a visitor
 When I visit the new application page
@@ -343,7 +343,7 @@ And I see a message that the user could not be found.
 ```
 [ ] done
 
-User Story 16, Searching for Pets for an Application
+User Story 18, Searching for Pets for an Application
 
 As a visitor
 When I visit an application's show page
@@ -359,7 +359,7 @@ And under the search bar I see any Pet whose name matches my search
 ```
 [ ] done
 
-User Story , Add a Pet to an Application
+User Story 19, Add a Pet to an Application
 
 As a visitor
 When I visit an application's show page
@@ -374,7 +374,7 @@ And I see the Pet I want to adopt listed on this application
 ```
 [ ] done
 
-User Story , Submit an Application
+User Story 20, Submit an Application
 
 As a visitor
 When I visit an application's show page
@@ -392,7 +392,7 @@ And I do not see a section to add more pets to this application
 ```
 [ ] done
 
-User Story 17, No Pets on an Application
+User Story 21, No Pets on an Application
 
 As a visitor
 When I visit an application's show page
@@ -404,7 +404,7 @@ Then I do not see a section to submit my application
 ```
 [ ] done
 
-User Story 17, Incomplete application for Pets
+User Story 22, Incomplete application for Pets
 
 As a visitor
 When I visit an application's show page
@@ -418,7 +418,7 @@ And I see my application is still "In Progress"
 ```
 [ ] done
 
-User Story , Partial Matches for Pet Names
+User Story 23, Partial Matches for Pet Names
 
 As a visitor
 When visit an application show page
@@ -430,7 +430,7 @@ For example, if I search for "fluff", my search would match pets with names "flu
 ```
 [ ] done
 
-User Story , Case Insensitive Matches for Pet Names
+User Story 24, Case Insensitive Matches for Pet Names
 
 As a visitor
 When visit an application show page
@@ -448,7 +448,7 @@ For this set of stories, we will be making routes that begin with '/admin'. This
 ```
 [ ] done
 
-User Story 22, Approving a Pet for Adoption
+User Story 25, Approving a Pet for Adoption
 
 As a visitor
 When I visit an admin application show page ('/admin/applications/:id')
@@ -462,7 +462,7 @@ And instead I see an indicator next to the pet that they have been approved
 ```
 [ ] done
 
-User Story 22, Rejecting a Pet for Adoption
+User Story 26, Rejecting a Pet for Adoption
 
 As a visitor
 When I visit an admin application show page ('/admin/applications/:id')
@@ -476,7 +476,7 @@ And instead I see an indicator next to the pet that they have been rejected
 ```
 [ ] done
 
-User Story, All Pets Accepted on an Application
+User Story 27, All Pets Accepted on an Application
 
 As a visitor
 When I visit an admin application show page
@@ -488,7 +488,7 @@ And I see the application's status has changed to "Approved"
 ```
 [ ] done
 
-User Story, One or More Pets Rejected on an Application
+User Story 28, One or More Pets Rejected on an Application
 
 As a visitor
 When I visit an admin application show page
@@ -500,7 +500,7 @@ And I see the application's status has changed to "Rejected"
 
 
 ```
-User Story 24, Pets can only have one approved application on them at any time
+User Story 29, Pets can only have one approved application on them at any time
 
 [ ] done
 
@@ -517,7 +517,7 @@ And instead I see a message that this pet has been approved for adoption
 ```
 [ ] done
 
-User Story 20, Pet Applications Index Page
+User Story 30, Pet Applications Index Page
 
 As a visitor
 When I visit a pets show page
@@ -531,7 +531,7 @@ Each applicants name is a link to the application's show page
 ```
 [ ] done
 
-User Story 21, Pet Applications Index Page When No Applications
+User Story 31, Pet Applications Index Page When No Applications
 
 As a visitor
 When I visit a pet applications index page for a pet that has no applications on them
@@ -544,7 +544,7 @@ Visitors will have additional constraints when manipulating shelter data in the 
 ```
 [ ] done
 
-User Story 30, Shelter Statistics
+User Story 32, Shelter Statistics
 
 As a visitor
 When I visit a shelter's show page
@@ -558,7 +558,7 @@ I see statistics for that shelter, including:
 ```
 [ ] done
 
-User Story 26, Shelters with Pets that have pending status cannot be Deleted
+User Story 33, Shelters with Pets that have pending status cannot be Deleted
 
 As a visitor
 If a shelter has approved applications for any of their pets
@@ -571,7 +571,7 @@ Either:
 ```
 [ ] done
 
-User Story 27, Shelters can be Deleted as long as all pets do not have approved applications on them
+User Story 34, Shelters can be Deleted as long as all pets do not have approved applications on them
 
 As a visitor
 If a shelter doesn't have any pets with an approved application
@@ -583,7 +583,7 @@ Then all of their pets are deleted as well
 ```
 [ ] done
 
-User Story 28, Deleting Shelters Deletes its Reviews
+User Story 35, Deleting Shelters Deletes its Reviews
 
 As a visitor
 When I delete a shelter
@@ -595,7 +595,7 @@ All reviews associated with that shelter are also deleted
 ```
 [ ] done
 
-User Story 31, Pets with approved applications cannot be deleted
+User Story 36, Pets with approved applications cannot be deleted
 
 As a visitor
 If a pet has an approved application on them
@@ -651,9 +651,6 @@ As a visitor,
 When I visit the shelter's index page
 I see the top 3 highest rated shelters highlighted on a specific part of the page
 ```
-
-
-
 
 ## Rubric
 Note: In order to get 4's criteria under 4's must be completed.
