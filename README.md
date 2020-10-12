@@ -16,8 +16,6 @@ Students will be put into pairs to complete the project.
 
 
 * Use Inheritance from ApplicationController or a student created controller to store methods that will be used in multiple controllers
-* Use POROs to logically organize code for objects not stored in the database
-* Describe use cases for a model that inherits from ApplicationRecord vs. a PORO
 
 ### ActiveRecord
 * Use built-in ActiveRecord methods to:
@@ -37,8 +35,6 @@ Students will be put into pairs to complete the project.
 * Describe and implement ReSTful routing
 * Identify use cases for, and implement non-ReSTful routes
 * Identify the different components of URLs(protocol, domain, path, query params)
-
-* Explain how Cookies/Sessions are used to create and maintain application state
 
 ## Requirements
 
