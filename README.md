@@ -256,7 +256,7 @@ As a visitor,
 When I visit the page to edit a review
 And I enter the name of a User that doesn't exist in the database, but still try to submit the form
 I see a flash message indicating that the User couldn't be found
-And I'm returned to the new form to create a new review
+And I'm returned to the edit form to edit the review
 ```
 
 ## User Review Statistics
